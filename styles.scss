@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+}
+#eye {
+  animation: eyes 1s ease-in infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#head {
+  animation: head 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#balloon {
+  animation: balloon 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#lefthand {
+  animation: lefthand 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#leftleg {
+  animation: leftleg 2s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes eyes {
+  from {
+    transform: scaley(0.5);
+  }
+  to {
+    transform: scaley(-1);
+  }
+}
+@keyframes lefthand {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}
+@keyframes leftleg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}
+@keyframes rope {
+  from {
+    transform: scalex(1);
+  }
+  to {
+    transform: scaley(0.5);
+  }
+}
+@keyframes rightleg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+@keyframes head {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+@keyframes balloon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}

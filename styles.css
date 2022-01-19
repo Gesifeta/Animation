@@ -1,0 +1,198 @@
+body {
+  text-align: center;
+}
+
+#eye {
+  -webkit-animation: eyes 1s ease-in infinite;
+          animation: eyes 1s ease-in infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#head {
+  -webkit-animation: head 2s linear infinite;
+          animation: head 2s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#balloon {
+  -webkit-animation: balloon 2s linear infinite;
+          animation: balloon 2s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#lefthand {
+  -webkit-animation: lefthand 2s linear infinite;
+          animation: lefthand 2s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#leftleg {
+  -webkit-animation: leftleg 2s linear infinite;
+          animation: leftleg 2s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes eyes {
+  from {
+    -webkit-transform: scaley(0.5);
+            transform: scaley(0.5);
+  }
+  to {
+    -webkit-transform: scaley(-1);
+            transform: scaley(-1);
+  }
+}
+
+@keyframes eyes {
+  from {
+    -webkit-transform: scaley(0.5);
+            transform: scaley(0.5);
+  }
+  to {
+    -webkit-transform: scaley(-1);
+            transform: scaley(-1);
+  }
+}
+
+@-webkit-keyframes lefthand {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+}
+
+@keyframes lefthand {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+}
+
+@-webkit-keyframes leftleg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@keyframes leftleg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@-webkit-keyframes rope {
+  from {
+    -webkit-transform: scalex(1);
+            transform: scalex(1);
+  }
+  to {
+    -webkit-transform: scaley(0.5);
+            transform: scaley(0.5);
+  }
+}
+
+@keyframes rope {
+  from {
+    -webkit-transform: scalex(1);
+            transform: scalex(1);
+  }
+  to {
+    -webkit-transform: scaley(0.5);
+            transform: scaley(0.5);
+  }
+}
+
+@-webkit-keyframes rightleg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+}
+
+@keyframes rightleg {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+}
+
+@-webkit-keyframes head {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
+@keyframes head {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes balloon {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@keyframes balloon {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
